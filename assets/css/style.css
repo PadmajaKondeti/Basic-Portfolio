@@ -15,7 +15,7 @@ body {
 	width:960px;
 	margin:0 auto;
 }
-header {
+.main-header {
 	background: #ffffff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	border: #cccccc
@@ -25,30 +25,29 @@ header {
     height: 80px;
 }
 
-header h1 {
+.main-header h1 {
     width: 40%;
     
     float:left;
     background: #4aaaa5;
     padding-left: 10px;
     text-align: center;
+    padding: 20px 0;
+	margin: 10px 30px 20px 10px;
 }
 
-header nav {
+.main-header nav {
     width: 50%;
- 
     padding-top: 50px;
     text-align:right;
     float:right;
 }
 h1 {
 	
-	padding: 20px 0;
 	
-	margin: 10px 30px 20px 10px;
 	
 }
-h4 {
+.container h4 {
 	font-size: 24px;
 	color:#4aaaa5;
 	width:50%;
@@ -67,7 +66,7 @@ nav{
 	padding-bottom: 40px; */
 }
 
-nav a{
+.main-header nav a{
 	padding-left: 10px;
 }
 #main-bio,
@@ -93,12 +92,12 @@ nav a{
 	height: 200px;
 	margin-right: 20px;
 }
-ul {
+#contact-info ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
  }
- li{
+#contact-info li{
     display: inline;
     padding:10px;
 
