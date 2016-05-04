@@ -14,6 +14,7 @@ body {
  	margin: 0 auto;
  	height: 80px;
 }
+#main {height: 90%;}
 
 .main-header {
 	background: #ffffff;
@@ -45,20 +46,20 @@ body {
 	padding-left: 20px;
 	text-decoration: none;
 }
+.main-header a:link { color: #666; }
+.main-header a:visited { color: #999; }
+.main-header a:hover { color: #4aaaa5; }
+.main-header a:active { color: black; }
 .container {
  	width:960px;
 	margin: 0 auto;
 	margin-bottom: 10px;
 }
-.container h4 {
+.container h2 {
 	font-size: 24px;
 	color:#4aaaa5;
-	width:50%;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
-
-  #main {height: 75%;}
-  #footer {height: 20%;}
 
 
 #main-bio,
@@ -73,6 +74,9 @@ body {
 	margin-right: 10px;
 	margin-top: 10px;
 	float: left;
+}
+#main-bio p{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 #contact-info {
 	width: 240px;
@@ -99,7 +103,9 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #666666;	;
+  background-color: #666666;
+  color:#fff;
   text-align: center;
   border-top:  solid 5px #4aaaa5;
+  height: 10%;
 }
