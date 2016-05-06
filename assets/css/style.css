@@ -14,9 +14,9 @@ body {
  	height: 80px;
 }
 #main {
-	/* height: 90%; */
+	/* height: 90%; 
 	border: #dddddd 1px solid;
-	background-image: url("assets/images/ricepaper.png");
+	background-image: url("assets/images/ricepaper.png");*/
 }
 .main-header {
 	background: #ffffff;
@@ -64,6 +64,7 @@ body {
 	color:#4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	height:inherit;
+	background-image: url("assets/images/ricepaper.png");
 }
 #main-bio,
 #contact-info,
@@ -129,18 +130,34 @@ body {
 }
 /*--- Specific to Portfolio --*/
 .tbl-portfolio{
-	/* margin: 0 auto;	*/
-	position: relative;
-}
-.tbl-portfolio td .right{
-		padding-right: 15px;
-}
-.img-portfolio{
-	width:280px;
-	/*margin-right: 20px;*/
-	margin-top: 25px;
+	 margin: 0 auto;
+	 color:#fff;
 	
 }
-.left{
-	float:left;
+.tbl-portfolio td {
+	width:320px;
+	margin-top: 25px;
+		/* padding-right: 15px; */
+}
+.img-portfolio{
+	/*width:280px; */
+    
+}
+.portfolio{
+	position: relative;
+	left:0;
+	padding: 0;
+    width: 280px; /* for IE 6 */
+}
+.txt-overlay{
+	position: absolute;
+ 	padding:10px 0;
+   text-align: center; 
+   width: 280px; 
+   color: #ffffff;
+   background: #4aaaa5;
+   z-index: 10;
+   top:70%;
+   margin-top: 10px;
+   margin-left: 0px;
 }
