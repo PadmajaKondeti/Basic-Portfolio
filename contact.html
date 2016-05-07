@@ -20,19 +20,19 @@
 	<div class="container">
 		<section id="main-bio">
 			<h2>Contact</h2>
-			<hr>
-
+			<hr><br>
 			<form id="frm-contact" action="action_page.php">
-				<label name="name">Name</label><br>
-				<input class="frm-elements" type="text" value="John Smith"></input><br>
-
-				<label name="email">Email</label><br>
-				<input type="text" class="frm-elements" value="example@gmail.com"></input><br>
-
-
-				<label name="message">Message</label><br>
-				<textarea name="message" class="frm-elements" rows="10" cols="30">
-				</textarea><br>
+				<label for="name">Name</label>
+				<br>
+				<input id="name" class="frm-elements" type="text" value="John Smith"></input>
+				<br><br>
+				<label for="email">Email</label>
+				<br>
+				<input id="email" type="text" class="frm-elements" value="example@gmail.com"></input>
+				<br><br>
+				<label for="message">Message</label><br>
+				<textarea id="message" class="frm-elements" rows="10" cols="30">
+				</textarea><br><br>
 				<input class="submit" type="submit" value="Submit"></input><br>
 			</form>
 		</section>
@@ -46,10 +46,10 @@
 			</ul>
 		</section>
 	</div>
+	<div class="push"></div>
 </div>
 <footer class="footer">
-	<p>(C) Copyright 2016 Padmaja Kondeti</p>
-	
+	<p>(c) Copyright 2016 Padmaja Kondeti</p>
 </footer>
 </body>
 </html>
